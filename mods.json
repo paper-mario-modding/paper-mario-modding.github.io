@@ -1,0 +1,18 @@
+{
+    "Mods": {
+      "DisplayName": "Test",
+      "InternalName": "test",
+      "Creators": [
+        "Test"
+      ],
+      "ReleaseDate": "1/1/1970",
+      "Version": "0.1",
+      "DownloadLink": "file.zip",
+      "SourceLink": "file.src",
+      "Description": "This is a test mod. AAAAAAAAAAAAAAAAH!!!!!!!!!!",
+      "Game": "PM64",
+      "Platform": "N64",
+      "ConsoleCompatible": "No",
+      "RecommendedEmu": "PJ64 1.6"
+    }
+}
