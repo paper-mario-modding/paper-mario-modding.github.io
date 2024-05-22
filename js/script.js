@@ -1,12 +1,3 @@
-let tempDatabase = '{ "items" : [' +
-'{"Name":"Gwimbly", "internalName":"gwimbly-ooh-ooh-ooh", "Description":"Test", "Price":"£0.00"},' +
-'{"Name":"Gwimbly", "internalName":"gwimbly-ooh-ooh-ooh", "Description":"Test", "Price":"£0.00"},' +
-'{"Name":"Gwimbly", "internalName":"gwimbly-ooh-ooh-ooh", "Description":"Test", "Price":"£0.00"},' +
-'{"Name":"Gwimbly", "internalName":"gwimbly-ooh-ooh-ooh", "Description":"Test", "Price":"£0.00"},' +
-'{"Name":"Gwimbly", "internalName":"gwimbly-ooh-ooh-ooh", "Description":"Test", "Price":"£0.00"},' +
-'{"Name":"Gwimbly", "internalName":"gwimbly-ooh-ooh-ooh", "Description":"Test", "Price":"£0.00"}' +
-' ]}';
-
 function generate(){
     for (let j = 0; j < 2; j++) {
       limit = (3 * j) + 3;
@@ -17,7 +8,7 @@ function generate(){
       content.insertBefore(modBar,content.children[j+2]);
       
       for (i = 0 + min; i < limit; i++) { 
-        const obj = JSON.parse(tempDatabase);
+        // const obj = JSON.parse(tempDatabase);
         console.log(obj);
 
         mod = document.createElement("button");
@@ -33,7 +24,7 @@ function generate(){
         console.log(mod.innerHTML);
       }
     }
-}
+  }
 
 
 // function modPage(item){
