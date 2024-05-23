@@ -1,3 +1,5 @@
+// This WIP code generates a unique page for any mod clicked on, can be added later if needs be
+
 window.onload = (event) => {
     console.log("page is fully loaded");
     PageLoad();

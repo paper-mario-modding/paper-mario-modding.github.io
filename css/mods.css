@@ -1,0 +1,14 @@
+.mod-bar{
+    display:flex;
+    flex-direction:row;
+    width:80vw;
+    justify-content:space-around;
+}
+
+.mod-box{
+    display:flex;
+    flex-direction:column;
+    padding:1%;
+    margin:1%;
+    background-color:#393552;
+}
