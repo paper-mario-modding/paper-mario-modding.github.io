@@ -16,11 +16,15 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
-    justify-content:center;
+    position:fixed;
 
     width:100vw;
     height:100vh;
     margin:0;
+}
+
+.centre{
+    justify-content:center;
 }
 
 div{
@@ -52,6 +56,7 @@ div{
 .return-arrow{
     position:absolute;
     margin-left:1%;
+    z-index:1;
 }
 
 button, input[type="submit"], input[type="reset"], a {
@@ -98,4 +103,8 @@ h5{
     font-weight:200;
     font-size:1.25em;
     text-align:center;
+}
+
+.no-margin{
+    margin:0;
 }

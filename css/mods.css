@@ -7,8 +7,48 @@
 
 .mod-box{
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     padding:1%;
     margin:1%;
     background-color:#393552;
+    min-width:15vw;
+    word-wrap:normal;
+    align-items:center;
+}
+
+.mod-box-left, .mod-box-right{
+    display:flex;
+    flex-direction:column;
+    padding:0%;
+    margin:0%;
+    justify-content:start;
+    flex-grow:1;
+    align-items:center;
+    height:100%;
+}
+
+.mod-box-left{
+    justify-content:center;
+    margin-right:1%;
+}
+.mod-box-right{
+    margin-left:1%;
+}
+.mod-box-title h2{
+    margin:0;
+    margin-bottom:1vh;
+}
+.mod-box-desc{
+    max-width:100%;
+}
+.mod-box-info{
+    display:flex;
+    justify-content:center;
+    margin-top:1vh;
+}
+
+.mod-box-icon{
+    max-width:64px;
+    max-height:64px;
+    margin-bottom:1vh;
 }
